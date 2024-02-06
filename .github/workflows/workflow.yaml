@@ -6,20 +6,21 @@ on:
 
 jobs:
   build:
-    runs-on:ubuntu-latest
-
+    runs-on: ubuntu-latest
     steps:
-      - uses:actions/checkout@v2
-      - name:Build
-          run: |
-            echo "build"
+    - uses: actions/checkout@v2
+    - name: Build
+        run: |
+          echo "build"
 
-      - name:Test
-          run: |
-            echo "test"
+    - name: Test
+        run: |
+          echo "test"
 
-      - name:deploy
-          run: |
-            echon "deploy"
+    - name: deploy
+        run: |
+          echon "deploy"
+
+   
 
 
