@@ -10,16 +10,16 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Build
-        run: |
-          echo "build"
+      run: |
+        echo "build"
 
     - name: Test
-        run: |
-          echo "test"
+      run: |
+        echo "test"
 
     - name: deploy
-        run: |
-          echon "deploy"
+      run: |
+        echon "deploy"
 
    
 
