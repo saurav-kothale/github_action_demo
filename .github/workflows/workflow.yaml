@@ -19,7 +19,7 @@ jobs:
 
     - name: deploy
       run: |
-        echon "deploy"
+        echo "deploy"
 
    
 
