@@ -9,9 +9,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
-    - name: Build
+    - name: Build the docker image
       run: |
-        echo "build"
+        docker build . --file Dockerfile --tag sample-gitflow:$(date +%s)
 
     - name: Test
       run: |
